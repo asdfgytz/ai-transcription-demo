@@ -31,6 +31,6 @@ note: client = OpenAI(api_key='your_key')
 
 client = OpenAI(api_key='your_key')
 
-這個需要用openAI的key 
+這個需要自己create a key from openAI
 
 
