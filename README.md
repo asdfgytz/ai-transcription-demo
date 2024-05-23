@@ -16,6 +16,9 @@ https://miru.v.anime1.me/1361/24.mp4
 
 ## Detail
 
+note: client = OpenAI(api_key='your_key')
+
+
 1-min_segment.txt: 1-min.mp3的日文字幕
 
 
@@ -24,5 +27,10 @@ https://miru.v.anime1.me/1361/24.mp4
 這個目的是測試 openAI API 無法接收 > 25MB file
 而的確也不行(test.ipynb裡面可以看到error code)
 
+## Note
+
+client = OpenAI(api_key='your_key')
+
+這個需要用openAI的key 
 
 
