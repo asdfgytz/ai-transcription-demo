@@ -1,29 +1,24 @@
-# ai-sub-demo
+# ai-transcription-demo
 
+上字幕(不包含翻譯)
 
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Introduction
-A brief description of what your project does, why it exists, and its purpose.
+所有code都存在 test.ipynb裡面
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+全長影片來源是存取: 
+https://miru.v.anime1.me/1361/24.mp4
 
-## Installation
-Detailed instructions on how to install and set up the project.
+1分鐘片段是擷取: 3:51 to 4:48
 
-### Prerequisites
-List any software, libraries, or tools required to use the project.
-```sh
-# Example command to install a prerequisite
-pip install example-package
+
+## Detail
+
+1-min_segment.txt: 1-min.mp3的日文字幕
+
+25MB_up.txt: 完整影片的日文字幕
+這個目的是測試 openAI API 無法接收 > 25MB file
+而的確也不行(code裡面可以看到error code)
+
+
+
