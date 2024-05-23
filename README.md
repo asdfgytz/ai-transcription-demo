@@ -15,10 +15,10 @@ https://miru.v.anime1.me/1361/24.mp4
 ## Detail
 
 1-min_segment.txt: 1-min.mp3的日文字幕
+\n\n
 
 25MB_up.txt: 完整影片的日文字幕
-
-這個目的是測試 openAI API 無法接收 > 25MB file
+(這個目的是測試 openAI API 無法接收 > 25MB file
 而的確也不行(code裡面可以看到error code)
 
 
