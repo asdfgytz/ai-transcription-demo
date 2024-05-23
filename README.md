@@ -1,6 +1,7 @@
 # ai-transcription-demo
 
 上字幕(不包含翻譯)
+使用 openAI API
 
 
 ## Introduction
